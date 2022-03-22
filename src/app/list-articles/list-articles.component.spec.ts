@@ -47,12 +47,12 @@ describe('ListArticlesComponent', () => {
   });
 
   // TEST INTEGRATION
-  it('Je veux voir le détail de mon article', function() {
-    const fixture = TestBed.createComponent(DetailArticleComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Pomme');
-  });
+  // it('Je veux voir le détail de mon article', function() {
+  //   const fixture = TestBed.createComponent(DetailArticleComponent);
+  //   fixture.detectChanges();
+  //   const compiled = fixture.debugElement.nativeElement;
+  //   expect(compiled.querySelector('h1').textContent).toContain('Pomme');
+  // });
 
   it('Je veux voir le détail de mon article x', () => {
     const parametersArticleName = ['apple', 'orange']
